@@ -93,3 +93,38 @@ const reactele = (
 const root3 = ReactDOM.createRoot(document.getElementById('child2'))
 // root3.render(<NewElemTitle/>);
 root3.render(reactele)
+
+
+
+
+
+
+
+
+
+
+
+
+////  // /// // // /// // //Props case
+
+{/* <h3>{props.resName}</h3>
+            <h4>{props.cuisine}</h4> // in case when we pass only props withour destructuring 
+            <h4>{props.star}</h4>
+            <h4>{props.time}</h4> */}
+
+            {/* <h3>{resName}</h3>
+            <h4>{cuisine}</h4>
+            <h4>{star}</h4>
+            <h4>{time}</h4> */}
+
+
+
+
+            {/* <RestaurantCard resName = "Meghana Foods" cuisine = "Biryani,North Indian, Asian"
+                star = "4.4stars" time="38 minutes" img = "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/e0839ff574213e6f35b3899ebf1fc597" alt="res-logo" 
+                />
+                <RestaurantCard resName = "KFC" cuisine = "Biryani,North Indian, Asian"
+                star = "4.9 stars" time="40 minutes" img = "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/11/5/a64ce30a-7492-444b-a485-1b7e2804e091_671928.JPG"
+                />
+                <RestaurantCard resName = "Pizza Hut" cuisine = "Margharieta , Cheese Burst Pizza" 
+                star = "4.8 stars" time="21 minutes" img = "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/7/16/87e56c63-b521-4257-96ae-a42229b92009_10576.jpg"/>  */}
