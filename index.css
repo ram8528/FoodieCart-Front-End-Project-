@@ -184,9 +184,24 @@
     flex-wrap: wrap;
     justify-content: flex-start; /* Align cards to the left */
     gap: 20px; /* Adds space between cards */
+    padding-left: 50px;
 }
-
+.filter{
+  display: flex;
+  padding: 10px;
+}
 .filter-btn{
   margin: 10px;
   cursor: pointer;
+}
+
+.back-to-all-btn{
+  margin: 10px;
+  cursor: pointer;
+}
+.filter-btn:hover{
+  background-color: #0bc3c3;
+}
+.back-to-all-btn:hover{
+  background-color: darkorange;
 }
