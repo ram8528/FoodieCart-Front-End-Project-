@@ -1,31 +1,4 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import logo from "./assets/logo.png";
-
-const Header = () => {
-  return (
-    <div className="header">
-      <div>
-        <img className="logo" src={logo} alt="logo" />
-      </div>
-      <div className="nav-items">
-        <ul>
-          <li>Home</li>
-          <li>About Us</li>
-          <li>Contact Us</li>
-          <li>Cart</li>
-        </ul>
-      </div>
-    </div>
-  );
-};
-
-
-const styleCard = {
-    backgroundColor: "#f0f0f0",
-};
-
-const restaurants = [
+const resList = [
     {
       type: "restaurant",
       "info": {
@@ -40,7 +13,7 @@ const restaurants = [
           "Fast Food",
           "Snacks"
         ],
-        "avgRating": 4.4,
+        "avgRating": 3.8,
         "parentId": "1557",
         "avgRatingString": "4.4",
         "totalRatingsString": "25K+",
@@ -133,7 +106,7 @@ const restaurants = [
         "cuisines": [
           "Pizzas"
         ],
-        "avgRating": 4.2,
+        "avgRating": 4.8,
         "parentId": "721",
         "avgRatingString": "4.2",
         "totalRatingsString": "21K+",
@@ -232,7 +205,7 @@ const restaurants = [
           "Desserts",
           "Beverages"
         ],
-        "avgRating": 4.2,
+        "avgRating": 3.4,
         "parentId": "469102",
         "avgRatingString": "4.2",
         "totalRatingsString": "51K+",
@@ -336,7 +309,7 @@ const restaurants = [
           "Home Food",
           "Healthy Food"
         ],
-        "avgRating": 4.5,
+        "avgRating": 4.8,
         "veg": true,
         "parentId": "346141",
         "avgRatingString": "4.5",
@@ -441,7 +414,7 @@ const restaurants = [
           "Biryani",
           "Snacks"
         ],
-        "avgRating": 4.3,
+        "avgRating": 3.9,
         "parentId": "475812",
         "avgRatingString": "4.3",
         "totalRatingsString": "378",
@@ -1640,80 +1613,4 @@ const restaurants = [
     }
 ];
 
-const RestaurantCard = (props) => {
-    // const {resName, cuisine, star, time, img} = props; //1924-1925
-    const { resData } = props;
-
-    const {
-        cloudinaryImageId,
-        name,
-        cuisines,
-        avgRating,
-        costForTwo
-    } = resData?.info;
-    const {
-        deliveryTime
-    } = resData?.info.sla;
-    return(
-        <div className="res-card" style={styleCard}>
-            <img className="res-logo" src= { "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/" + resData.info.cloudinaryImageId } alt={"image"} />
-            
-
-            <h4>{name}</h4>
-            <h5>{cuisines.join(", ")}</h5>
-            <h5>{avgRating}</h5>
-            <h5>{costForTwo }</h5>
-            <h5>{deliveryTime} minutes</h5>
-        </div>
-    );
-};
-
-{/* <h3>{resData.info.name}</h3>
-            <h4>{resData.info.cuisines.join(", ")}</h4>
-            <h4>{resData.info.avgRating}</h4>
-            <h4>{resData.info.costForTwo }</h4>
-            <h4>{resData.info.deliveryTime} minutes</h4> */}
-
-
-// not using keys(not acceptable) <<  index as keys << unique key(best practice always)
-
-const Body = () => {
-    return (
-        <div className="body">
-            <div className="Search">
-            <input type="text" placeholder="Search.." class="search-input" />
-            <button class="search-button">🔍</button>
-            </div>
-            <div className="res-container">
-                
-                {restaurants.map((restaurant) => (
-                    <RestaurantCard key={restaurant.info.id} resData = {restaurant} />
-                ))
-
-                }
-
-            </div>
-        </div>
-    );
-};
-const AppLayout = () => {
-  return (
-    <div className="app">
-      <Header />
-      <Body />
-    </div>
-  );
-};
-
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<AppLayout />);
-
-
-
-{/* <RestaurantCard resData = {restaurants[0]}/>
-                <RestaurantCard resData = {restaurants[1]}/>
-                <RestaurantCard resData = {restaurants[2]}/>
-                <RestaurantCard resData = {restaurants[3]}/>
-                <RestaurantCard resData = {restaurants[4]}/>
-                <RestaurantCard resData = {restaurants[5]}/>
-                <RestaurantCard resData = {restaurants[6]}/> */}
+export default resList;

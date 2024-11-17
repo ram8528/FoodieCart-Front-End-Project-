@@ -186,3 +186,7 @@
     gap: 20px; /* Adds space between cards */
 }
 
+.filter-btn{
+  margin: 10px;
+  cursor: pointer;
+}
