@@ -1,47 +1,86 @@
 import RestaurantCard from "./RestaurantCard";
 import resList from "../utils/restaurants";
-import { useState , useEffect} from "react";
+import { useState, useEffect } from "react";
 import Shimmer from "./Shimmer";
 
 const Body = () => {
   // Local State Variable - Super powerful variable
-//   const [listOfRestaurants, setListOfRestaurants] = useState(resList); // it used when we have data with us
-const [listOfRestaurants, setListOfRestaurants] = useState([]); // if we want to fetch data by API call we must leave it empty
+  //   const [listOfRestaurants, setListOfRestaurants] = useState(resList); // it used when we have data with us
+  const [listOfRestaurants, setListOfRestaurants] = useState([]); // if we want to fetch data by API call we must leave it empty
+  const [filteredRestaurant, setFilteredRestaurant] = useState([]);
   const [showTopRated, setShowTopRated] = useState(false); // Track if top-rated restaurants are being shown
+
+  const [searchText, setSearchText] = useState("");
+  // Whenever state variable updates, react triggers a reconcilliation cycle(re-render)
+  console.log("Body rendered");
 
   useEffect(() => {
     // console.log("useEffect Called");
     fetchData();
   }, []);
 
-  const fetchData = async() => {
+  const fetchData = async () => {
     const data = await fetch(
-        "https://www.swiggy.com/mapi/homepage/getCards?lat=12.9352403&lng=77.624532"
+      "https://www.swiggy.com/mapi/homepage/getCards?lat=12.9352403&lng=77.624532"
     );
 
     const json = await data.json();
     console.log(json);
     // Optional Chaining
-    setListOfRestaurants(json?.data?.success?.cards[1]?.gridWidget?.gridElements?.infoWithStyle?.restaurants);
+    setListOfRestaurants(
+      json?.data?.success?.cards[1]?.gridWidget?.gridElements?.infoWithStyle
+        ?.restaurants
+    );
+    setFilteredRestaurant(
+      json?.data?.success?.cards[1]?.gridWidget?.gridElements?.infoWithStyle
+        ?.restaurants
+    );
   };
 
-  if (listOfRestaurants.length === 0) {
-    return (
-    //   <div className="spinner-container">
-    //     <div className="spinner">Loading</div>
-    //   </div>
+  // Conditional Rendering
+  // if (listOfRestaurants.length === 0) {
+  //   return (
+  //   <div className="spinner-container">
+  //     <div className="spinner">Loading</div>
+  //   </div>
+  //   <Shimmer />
+  //   );
+  // }
+
+  //   console.log("Body Rendered");// Firstly Body renders then useEffect is called
+
+  
+
+  return listOfRestaurants.length === 0 ? (
     <Shimmer />
-    );
-  }
-
-
-
-//   console.log("Body Rendered");// Firstly Body renders then useEffect is called
-  return (
+  ) : (
     <div className="body">
       <div className="Search">
-        <input type="text" placeholder="Search.." className="search-input" />
-        <button className="search-button">🔍</button>
+        <input
+          type="text"
+          placeholder="Search.."
+          className="search-input"
+          value={searchText}
+          onChange={(e) => {
+            setSearchText(e.target.value);
+          }}
+        />
+        <button className="search-button"
+          onClick={() => {
+            
+            // filter the restaurant cards and update the UI
+            // searchText
+            console.log(searchText);
+
+            const filteredRestaurant = listOfRestaurants.filter((res) =>
+              res.info.name.toLowerCase().includes(searchText.toLowerCase()) || res.info.cuisines.join(' ').toLowerCase().includes(searchText.toLowerCase()) // here we have used join because it is an array of strings
+            );
+            // The .join() method is an array method in JavaScript that combines all elements of an array into a single string. You can specify a separator (like a space, comma, or any other character) that will be inserted between each array element.
+
+            // setListOfRestaurants(filteredRestaurant);
+            setFilteredRestaurant(filteredRestaurant);
+          }}  
+        >🔍</button>
       </div>
 
       <div className="filter">
@@ -77,7 +116,8 @@ const [listOfRestaurants, setListOfRestaurants] = useState([]); // if we want to
         )}
       </div>
       <div className="res-container">
-        {listOfRestaurants.map((restaurant) => (
+        {/* {listOfRestaurants.map((restaurant) => ( */}
+        {filteredRestaurant.map((restaurant) => (
           <RestaurantCard key={restaurant.info.id} resData={restaurant} />
         ))}
       </div>
