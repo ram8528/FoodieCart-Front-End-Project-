@@ -186,6 +186,14 @@
     gap: 20px; /* Adds space between cards */
     padding-left: 50px;
 }
+
+.res-container a{
+  text-decoration: none;
+}
+.nav-items a{
+  text-decoration: none;
+}
+
 .filter{
   display: flex;
   padding: 10px;
