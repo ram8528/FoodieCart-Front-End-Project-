@@ -3,7 +3,7 @@ import resList from "../utils/restaurants";
 import { useState, useEffect } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
-
+import useOnlineStatus from "../utils/useOnlineStatus";
 const Body = () => {
   // Local State Variable - Super powerful variable
   //   const [listOfRestaurants, setListOfRestaurants] = useState(resList); // it used when we have data with us
@@ -37,6 +37,10 @@ const Body = () => {
         ?.restaurants
     );
   };
+
+  const onlineStatus = useOnlineStatus();  // for checking onlinestatus
+  if(onlineStatus === false) return <h1>Looks like you are offline please check your Internet Connection</h1>
+  
 
   // Conditional Rendering
   // if (listOfRestaurants.length === 0) {

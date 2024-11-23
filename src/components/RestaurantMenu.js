@@ -1,16 +1,20 @@
 import { useState, useEffect } from "react";
 import Shimmer from "./Shimmer";
 import { useParams } from "react-router-dom";
-import { MENU_API } from "../utils/constants";
+// import { MENU_API } from "../utils/constants";
+import useRestaurantMenu from "../utils/useRestaurantMenu";
 
 const RestaurantMenu = () => {
-  const [resInfo, setResInfo] = useState(null);
+  // const [resInfo, setResInfo] = useState(null);
 
-//   const params = useParams();
-//   console.log(params);
+  //   const params = useParams();
+  //   console.log(params);
 
-const {resId} = useParams();
+  const { resId } = useParams();
 
+  const resInfo = useRestaurantMenu(resId);
+
+/*
   useEffect(() => {
     fetchMenu();
   }, []);
@@ -23,6 +27,7 @@ const {resId} = useParams();
     // console.log(json);
     setResInfo(json.data);
   };
+*/
 
   if (resInfo === null) return <Shimmer />;
 
@@ -51,7 +56,7 @@ const {resId} = useParams();
       {/* <h3>Cuisines: {cuisines?.join(", ")}</h3> */}
 
       <p>
-        {cuisines.join(", ")} - {costForTwoMessage}
+        {cuisines?.join(", ") || "No cuisines available"} - {costForTwoMessage}
       </p>
 
       <ul>
