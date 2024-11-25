@@ -38,9 +38,11 @@ const Body = () => {
     );
   };
 
-  const onlineStatus = useOnlineStatus();  // for checking onlinestatus
-  if(onlineStatus === false) return <h1>Looks like you are offline please check your Internet Connection</h1>
-  
+  const onlineStatus = useOnlineStatus(); // for checking onlinestatus
+  if (onlineStatus === false)
+    return (
+      <h1>Looks like you are offline please check your Internet Connection</h1>
+    );
 
   // Conditional Rendering
   // if (listOfRestaurants.length === 0) {
@@ -58,81 +60,84 @@ const Body = () => {
     <Shimmer />
   ) : (
     <div className="body">
-      <div className="Search">
-        <input
-          type="text"
-          placeholder="Search.."
-          className="search-input"
-          value={searchText}
-          onChange={(e) => {
-            setSearchText(e.target.value);
-          }}
-        />
-        <button
-          className="search-button"
-          onClick={() => {
-            // filter the restaurant cards and update the UI
-            // searchText
-            console.log(searchText);
-
-            const filteredRestaurant = listOfRestaurants.filter(
-              (res) =>
-                res.info.name
-                  .toLowerCase()
-                  .includes(searchText.toLowerCase()) ||
-                res.info.cuisines
-                  .join(" ")
-                  .toLowerCase()
-                  .includes(searchText.toLowerCase()) // here we have used join because it is an array of strings
-            );
-            // The .join() method is an array method in JavaScript that combines all elements of an array into a single string. You can specify a separator (like a space, comma, or any other character) that will be inserted between each array element.
-
-            // setListOfRestaurants(filteredRestaurant);
-            setFilteredRestaurant(filteredRestaurant);
-          }}
-        >
-          🔍
-        </button>
-      </div>
-
-      <div className="filter">
-        <button
-          className="filter-btn"
-          onClick={() => {
-            // console.log("Button Clicked")
-            // restaurants = restaurants.filter(
-            //     (res) => res.info.avgRating >4
-            // );
-            // console.log(restaurants);
-
-            const filteredList = listOfRestaurants.filter(
-              (res) => res.info.avgRating > 4.5
-            );
-            setListOfRestaurants(filteredList);
-            setShowTopRated(true); // Indicate top-rated list is being shown
-          }}
-        >
-          Top Rated Restaurants
-        </button>
-
-        {showTopRated && (
+      <div className="Search m-4 p-4 flex justify-between h-auto min-h-[200px]">
+        <div className="m-4 p-4 flex items-center h-10">
+          <input
+            type="text"
+            placeholder="Search.."
+            className="search-input border border-solid border-black rounded-lg"
+            value={searchText}
+            onChange={(e) => {
+              setSearchText(e.target.value);
+            }}
+          />
           <button
-            className="back-to-all-btn"
+            className="px-1 py-1 bg-green-300 m-1 rounded-lg"
             onClick={() => {
-              setListOfRestaurants(resList); // Reset to the original full list
-              setShowTopRated(false); // Reset top-rated filter
+              // filter the restaurant cards and update the UI
+              // searchText
+              console.log(searchText);
+
+              const filteredRestaurant = listOfRestaurants.filter(
+                (res) =>
+                  res.info.name
+                    .toLowerCase()
+                    .includes(searchText.toLowerCase()) ||
+                  res.info.cuisines
+                    .join(" ")
+                    .toLowerCase()
+                    .includes(searchText.toLowerCase()) // here we have used join because it is an array of strings
+              );
+              // The .join() method is an array method in JavaScript that combines all elements of an array into a single string. You can specify a separator (like a space, comma, or any other character) that will be inserted between each array element.
+
+              // setListOfRestaurants(filteredRestaurant);
+              setFilteredRestaurant(filteredRestaurant);
             }}
           >
-            Back to All Restaurant List
+            🔍Search
           </button>
-        )}
+        </div>
+
+        <div className="m-4 p-4 flex items-center justify-between h-10 ">
+          <button
+            className="flex px-5 py-2 m-2 bg-gray-400 rounded-lg items-center"
+            onClick={() => {
+              // console.log("Button Clicked")
+              // restaurants = restaurants.filter(
+              //     (res) => res.info.avgRating >4
+              // );
+              // console.log(restaurants);
+
+              const filteredList = listOfRestaurants.filter(
+                (res) => res.info.avgRating > 4.5
+              );
+              setListOfRestaurants(filteredList);
+              setShowTopRated(true); // Indicate top-rated list is being shown
+            }}
+          >
+            Top Rated Restaurants
+          </button>
+
+          {showTopRated && (
+            <button
+              className="px-5 py-2 m-2 bg-red-300 rounded-lg items-center"
+              onClick={() => {
+                setListOfRestaurants(resList); // Reset to the original full list
+                setShowTopRated(false); // Reset top-rated filter
+              }}
+            >
+              Back to All Restaurant List
+            </button>
+          )}
+        </div>
       </div>
-      <div className="res-container">
+      <div className="res-container flex flex-wrap ">
         {/* {listOfRestaurants.map((restaurant) => ( */}
         {filteredRestaurant.map((restaurant) => (
           <Link
             key={restaurant.info.id}
             to={"/restaurants/" + restaurant.info.id}
+            className="w-64 h-[350px] p-4 bg-white rounded-lg shadow-lg"
           >
             {/* <RestaurantCard key={restaurant.info.id} resData={restaurant} /> */}
             <RestaurantCard resData={restaurant} />
