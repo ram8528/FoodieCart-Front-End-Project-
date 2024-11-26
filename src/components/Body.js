@@ -1,9 +1,10 @@
-import RestaurantCard from "./RestaurantCard";
+import RestaurantCard, { withPromotedLabel } from "./RestaurantCard";
 import resList from "../utils/restaurants";
 import { useState, useEffect } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
+
 const Body = () => {
   // Local State Variable - Super powerful variable
   //   const [listOfRestaurants, setListOfRestaurants] = useState(resList); // it used when we have data with us
@@ -12,8 +13,11 @@ const Body = () => {
   const [showTopRated, setShowTopRated] = useState(false); // Track if top-rated restaurants are being shown
 
   const [searchText, setSearchText] = useState("");
+
+  const RestaurantCardPromoted = withPromotedLabel(RestaurantCard);
+
   // Whenever state variable updates, react triggers a reconcilliation cycle(re-render)
-  // console.log("Body rendered");
+  console.log("Body rendered", listOfRestaurants);
 
   useEffect(() => {
     // console.log("useEffect Called");
@@ -131,7 +135,7 @@ const Body = () => {
           )}
         </div>
       </div>
-      <div className="res-container flex flex-wrap ">
+      <div className="res-container flex flex-wrap px-20">
         {/* {listOfRestaurants.map((restaurant) => ( */}
         {filteredRestaurant.map((restaurant) => (
           <Link
@@ -140,7 +144,12 @@ const Body = () => {
             className="w-64 h-[350px] p-4 bg-white rounded-lg shadow-lg"
           >
             {/* <RestaurantCard key={restaurant.info.id} resData={restaurant} /> */}
-            <RestaurantCard resData={restaurant} />
+
+            {restaurant.info.promoted ? (
+              <RestaurantCardPromoted resData={restaurant} />
+            ) : (
+              <RestaurantCard resData={restaurant} />
+            )}
           </Link>
         ))}
       </div>

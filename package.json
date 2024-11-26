@@ -33,6 +33,7 @@
     "react-router-dom": "^6.28.0"
   },
   "devDependencies": {
+    "buffer": "^6.0.3",
     "parcel": "^2.13.0",
     "postcss": "^8.4.49",
     "process": "^0.11.10",
