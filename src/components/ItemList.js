@@ -1,5 +1,5 @@
-// import { useDispatch } from "react-redux";
-// import { addItem } from "../utils/cartSlice";
+import { useDispatch } from "react-redux";
+import { addItem } from "../utils/cartSlice";
 import { CDN_URL } from "../utils/constants";
 
 const ItemList = ({ items, dummy }) => {
@@ -10,6 +10,13 @@ const ItemList = ({ items, dummy }) => {
   //   // Dispatch an action
   //   dispatch(addItem(item));
   // };
+
+  const dispatch = useDispatch();
+  const handleAddItem = (item) => {
+    // Dispatch an Action
+    // dispatch(addItem("Pizza"))
+    dispatch(addItem(item));
+  }
 
   return (
     <div>
@@ -34,8 +41,9 @@ const ItemList = ({ items, dummy }) => {
           <div className="w-3/12 p-4">
             <div className="absolute">
               <button
-                className="p-2 mx-16 rounded-lg bg-black text-white shadow-lg"
-                // onClick={() => handleAddItem(item)}
+                className="p-2 mx-16 rounded-lg bg-black text-white shadow-lg" 
+                onClick={() => handleAddItem(item)}   // this is passing item with callback function
+                // onClick={handleAddItem} // this is calling of function
               >
                 Add +
               </button>
