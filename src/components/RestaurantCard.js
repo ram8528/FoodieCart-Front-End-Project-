@@ -1,5 +1,7 @@
 import { CDN_URL } from "../utils/constants";
 import { styleCard } from "../App.js";
+import UserContext from "../utils/UserContext.js";
+import { useContext } from "react";
 
 const RestaurantCard = (props) => {
     // const {resName, cuisine, star, time, img} = props; //1924-1925
@@ -15,6 +17,8 @@ const RestaurantCard = (props) => {
     const {
         deliveryTime
     } = resData?.info.sla;
+
+    const {loggedInUser}= useContext(UserContext);
 
     return (
         <div className="res-card m-4 p-4 w-[220px] h-[350px] bg-white rounded-lg shadow-lg"> {/* Reduced width to make the card less bulky */}
@@ -32,6 +36,7 @@ const RestaurantCard = (props) => {
                     <h4 className="text-gray-500">₹{costForTwo}</h4>
                 </div>
                 <h4 className="text-sm text-gray-500">{deliveryTime} minutes</h4>
+                <h5 className="text-sm text-gray-500">Current User :- {loggedInUser} </h5>
             </div>
         </div>
     );

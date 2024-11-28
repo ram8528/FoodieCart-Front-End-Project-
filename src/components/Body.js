@@ -4,6 +4,8 @@ import { useState, useEffect } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
+import UserContext from "../utils/UserContext";
+import { useContext } from "react";
 
 const Body = () => {
   // Local State Variable - Super powerful variable
@@ -17,12 +19,14 @@ const Body = () => {
   const RestaurantCardPromoted = withPromotedLabel(RestaurantCard);
 
   // Whenever state variable updates, react triggers a reconcilliation cycle(re-render)
-  console.log("Body rendered", listOfRestaurants);
+  // console.log("Body rendered", listOfRestaurants);
 
   useEffect(() => {
     // console.log("useEffect Called");
     fetchData();
   }, []);
+
+  const { loggedInUser, setUserName } = useContext(UserContext);
 
   const fetchData = async () => {
     const data = await fetch(
@@ -100,6 +104,16 @@ const Body = () => {
           >
             🔍Search
           </button>
+        </div>
+        
+        <div className="search m-4 p-4 flex items-center">
+          <label className="font-bold p-2">UserName : </label>
+          <input
+            className="border border-red-600 bg-green-300 p-2 rounded-lg text-black"
+            value={loggedInUser}
+            onChange={(e) => setUserName(e.target.value)}
+            placeholder="Place UserName"
+          />
         </div>
 
         <div className="m-4 p-4 flex items-center justify-between h-10 ">
