@@ -20,7 +20,7 @@ const Header = () => {
   console.log(cartItems);
 
   return (
-    <div className="flex justify-between bg-pink-300 shadow-lg m-2">
+    <div className="flex justify-between bg-pink-300 shadow-lg m-2 bg-fixed">
       <div className="logo-container">
         <img className="w-40" src={logo} alt="logo" />
       </div>
