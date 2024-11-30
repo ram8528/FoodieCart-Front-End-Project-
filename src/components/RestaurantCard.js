@@ -1,11 +1,12 @@
 import { CDN_URL } from "../utils/constants";
-import { styleCard } from "../App.js";
+// import { styleCard } from "../App.js";
 import UserContext from "../utils/UserContext.js";
 import { useContext } from "react";
 
 const RestaurantCard = (props) => {
     // const {resName, cuisine, star, time, img} = props; //1924-1925
     const { resData } = props;
+    console.log(resData);
 
     const {
         cloudinaryImageId,

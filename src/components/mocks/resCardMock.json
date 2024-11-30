@@ -1,0 +1,79 @@
+{
+    "info": {
+        "id": "65797",
+        "name": "RRR",
+        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/14/33bfb682-d5fa-4054-9e2c-31911e34ebf6_65797.jpg",
+        "locality": "Koramangala",
+        "areaName": "Koramangala",
+        "costForTwo": "₹300 for two",
+        "cuisines": [
+            "American",
+            "Snacks",
+            "Turkish",
+            "Portuguese",
+            "Continental"
+        ],
+        "avgRating": 4.5,
+        "parentId": "371281",
+        "avgRatingString": "4.5",
+        "totalRatingsString": "54K+",
+        "promoted": true,
+        "adTrackingId": "cid=21797992~p=1~adgrpid=21797992#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=65797~eid=92f1806d-4314-4b27-a114-1f23310ade2b~srvts=1732994355188~collid=45995",
+        "sla": {
+            "deliveryTime": 27,
+            "lastMileTravel": 1.3,
+            "serviceability": "SERVICEABLE",
+            "slaString": "25-30 mins",
+            "lastMileTravelString": "1.3 km",
+            "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+            "nextCloseTime": "2024-12-01 04:00:00",
+            "opened": true
+        },
+        "badges": {},
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+            "entityBadges": {
+                "imageBased": {},
+                "textExtendedBadges": {},
+                "textBased": {}
+            }
+        },
+        "aggregatedDiscountInfoV3": {
+            "header": "ITEMS",
+            "subHeader": "AT ₹99",
+            "logoCtx": {
+                "text": "BENEFITS"
+            }
+        },
+        "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {},
+                "video": {}
+            }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {},
+        "externalRatings": {
+            "aggregatedRating": {
+                "rating": "4.5",
+                "ratingCount": "4.2K+"
+            },
+            "source": "GOOGLE",
+            "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+        "campaignId": "21797992"
+    },
+    "analytics": {},
+    "cta": {
+        "link": "swiggy://menu?restaurant_id=65797",
+        "text": "RESTAURANT_MENU",
+        "type": "DEEPLINK"
+    }
+}

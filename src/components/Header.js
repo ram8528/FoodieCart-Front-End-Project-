@@ -1,6 +1,5 @@
 import { useContext, useState } from "react";
 import logo from "../../assets/logo.png";
-import { useState } from "react";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import UserContext from "../utils/UserContext";
@@ -17,7 +16,7 @@ const Header = () => {
 
   // Subscribing to the store using our Selector
   const cartItems = useSelector((store) => store.cart.items);
-  console.log(cartItems);
+  // console.log(cartItems);
 
   return (
     <div className="flex justify-between bg-pink-300 shadow-lg m-2 bg-fixed">
@@ -40,7 +39,7 @@ const Header = () => {
             <Link to="/grocery">Grocery</Link>{" "}
           </li>
           <li className="px-4 font-extrabold ">
-            <Link to="/cart">Cart({cartItems.length}</Link> )
+            <Link to="/cart">Cart({cartItems.length})</Link>
           </li>
 
           <button
