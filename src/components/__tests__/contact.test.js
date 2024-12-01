@@ -4,6 +4,22 @@ import "@testing-library/jest-dom";
 // All this is Unit Testing 
 // for grouping test cases using describe
 describe("Contact Us Page Test Case ", () => {  // describe for grouping test cases . multiple describe can be there
+  // afterAll(() => {
+  //   console.log("After All");
+  // })
+
+  // afterEach(() => {
+  //   console.log("After each");
+  // })
+  // beforeAll(() => {
+  //   console.log("before All");
+  // });
+
+  // beforeEach(() => {
+  //   console.log("before each");
+  // })
+
+
   test("Should load contact us Component", () => {
     render(<Contact />);
 

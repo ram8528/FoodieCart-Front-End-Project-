@@ -1,0 +1,1472 @@
+{
+    "statusCode": 0,
+    "data": {
+        "statusMessage": "done successfully",
+        "cards": [
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.TextBoxV2",
+                        "text": "Omm Nom Nomm",
+                        "headerStyling": {
+                            "textColor": "text_Highest_Emphasis",
+                            "textVariant": "header_H3_Black"
+                        }
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.RestaurantBlTab",
+                        "tabs": [
+                            {
+                                "id": "Order Online",
+                                "title": "Order Online"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                        "info": {
+                            "id": "690730",
+                            "name": "Omm Nom Nomm",
+                            "city": "Bangalore",
+                            "slugs": {
+                                "restaurant": "omm-nom-nomm-koramangala-koramangala",
+                                "city": "bangalore"
+                            },
+                            "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+                            "cloudinaryImageId": "0b6ccedf0af57a82ecea2910397bb947",
+                            "locality": "BTM Layout",
+                            "areaName": "Koramangala",
+                            "costForTwo": "60000",
+                            "costForTwoMessage": "₹600 for two",
+                            "cuisines": [
+                                "Ice Cream",
+                                "Desserts"
+                            ],
+                            "avgRating": 4.9,
+                            "feeDetails": {
+                                "restaurantId": "690730",
+                                "fees": [
+                                    {}
+                                ]
+                            },
+                            "parentId": "21184",
+                            "avgRatingString": "4.9",
+                            "totalRatingsString": "1.9K+ ratings",
+                            "sla": {
+                                "restaurantId": "690730",
+                                "lastMileTravel": 1739.2,
+                                "serviceability": "NON_SERVICEABLE",
+                                "rainMode": "RAIN_MODE_NONE",
+                                "longDistance": "LONG_DISTANCE_NOT_LONG_DISTANCE",
+                                "lastMileTravelString": "1739.2 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2024-12-01 23:00:00",
+                                "visibility": true,
+                                "opened": true,
+                                "restaurantClosedMeta": {}
+                            },
+                            "aggregatedDiscountInfo": {
+                                "header": "Claim double offer",
+                                "shortDescriptionList": [
+                                    {
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "Claim double offer",
+                                        "discountType": "Flat",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "descriptionList": [
+                                    {
+                                        "meta": "15% off upto ₹100|Use RBLCC100 Above ₹500",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "Claim your extra offer",
+                                        "discountType": "Flat",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "visible": true
+                            },
+                            "badges": {},
+                            "slugString": "omm-nom-nomm-koramangala-koramangala",
+                            "isOpen": true,
+                            "labels": [
+                                {
+                                    "title": "Timings",
+                                    "message": "null"
+                                },
+                                {
+                                    "title": "Address",
+                                    "message": "SHOP BEARING NO.A01, NO.506, 1ST CROSS, 8TH BLOCK, KORAMANGALA LAYOUT - BENGALURU, INDIA, BTM Layout , B.B.M.P South, Karnataka-560095"
+                                },
+                                {
+                                    "title": "Cuisines",
+                                    "message": "Ice Cream,Desserts"
+                                }
+                            ],
+                            "totalRatings": 1900,
+                            "aggregatedDiscountInfoV2": {
+                                "header": "Claim double offer",
+                                "shortDescriptionList": [
+                                    {
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "Claim double offer",
+                                        "discountType": "Flat",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "descriptionList": [
+                                    {
+                                        "meta": "15% off upto ₹100|Use RBLCC100 Above ₹500",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "Claim your extra offer",
+                                        "discountType": "Flat",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "couponDetailsCta": "View coupon details"
+                            },
+                            "type": "F",
+                            "headerBanner": {
+                                "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/690730"
+                            },
+                            "ratingSlab": "RATING_SLAB_5",
+                            "availabilityServiceabilityMessage": "Does not deliver to your location",
+                            "orderabilityCommunication": {
+                                "title": {
+                                    "text": "Wish you were"
+                                },
+                                "subTitle": {
+                                    "text": "CLOSER!"
+                                },
+                                "message": {
+                                    "text": "This location is outside the outlet's delivery area",
+                                    "textColour": "negative"
+                                },
+                                "customIcon": {
+                                    "bgGradientColorStart": "#F64C41",
+                                    "bgGradientColorEnd": "#E53554"
+                                },
+                                "commsStyling": {}
+                            },
+                            "hasBestsellerItems": true,
+                            "cartOrderabilityNudgeBanner": {
+                                "parameters": {},
+                                "presentation": {}
+                            },
+                            "latLong": "12.93924582,77.61798715",
+                            "backgroundImageOverlayInfo": {},
+                            "featuredSectionInfo": {},
+                            "hasBoltItems": true
+                        },
+                        "analytics": {}
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+                        "layout": {
+                            "rows": 1,
+                            "columns": 3,
+                            "horizontalScrollEnabled": true,
+                            "itemSpacing": 12,
+                            "lineSpacing": 10,
+                            "widgetPadding": {},
+                            "containerStyle": {
+                                "containerPadding": {
+                                    "left": 10,
+                                    "right": 10
+                                }
+                            },
+                            "scrollBar": {
+                                "scrollThumbColor": "#E46D47",
+                                "scrollTrackColor": "#e4e4e4",
+                                "width": 54,
+                                "height": 4,
+                                "scrollStyling": {
+                                    "padding": {
+                                        "top": 20,
+                                        "bottom": 20
+                                    }
+                                }
+                            }
+                        },
+                        "id": "offerCollectionWidget",
+                        "gridElements": {
+                            "infoWithStyle": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.OfferInfoWithStyle",
+                                "offers": [
+                                    {
+                                        "info": {
+                                            "header": "Extra ₹25 off",
+                                            "offerTagColor": "#E46D47",
+                                            "logoBottom": "rng/md/ads/production/d07196b25b85d1fd9951e10c255ab737",
+                                            "offerIds": [
+                                                "cf995e06-2d73-4e4d-8ca6-4a1b529ac344"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "description": "APPLICABLE OVER & ABOVE COUPONS",
+                                            "offerType": "offers",
+                                            "restId": "690730",
+                                            "offerLogo": "rng/md/ads/production/d07196b25b85d1fd9951e10c255ab737",
+                                            "descriptionTextColor": "#7302060C"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "header": "15% OFF UPTO ₹100",
+                                            "offerTagColor": "#E46D47",
+                                            "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/11/30/9685142c-bbdd-4b6b-8315-5debbd7d2eb8_RBLMenuVisibilityLogo.png",
+                                            "offerIds": [
+                                                "5e86f34e-a8a5-43e9-9de3-0074f506cd5b"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "USE RBLCC100",
+                                            "description": "ABOVE ₹500",
+                                            "offerType": "offers",
+                                            "restId": "690730",
+                                            "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2024/11/30/9685142c-bbdd-4b6b-8315-5debbd7d2eb8_RBLMenuVisibilityLogo.png",
+                                            "descriptionTextColor": "#7302060C"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "header": "FLAT ₹75 OFF",
+                                            "offerTagColor": "#E46D47",
+                                            "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/11/30/d6757146-0217-4f30-9d56-f7cd4e2505c8_SBIMenuLogo.png",
+                                            "offerIds": [
+                                                "00abd81c-5c6c-4914-b1f8-aa86bbc94d59"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "USE SBIDC75",
+                                            "description": "ABOVE ₹499",
+                                            "offerType": "offers",
+                                            "restId": "690730",
+                                            "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2024/11/30/d6757146-0217-4f30-9d56-f7cd4e2505c8_SBIMenuLogo.png",
+                                            "descriptionTextColor": "#7302060C"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    }
+                                ],
+                                "habitMilestoneInfo": {
+                                    "callout": {}
+                                },
+                                "loyaltyDiscoverPresentationInfo": {
+                                    "logoCtx": {}
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuTab",
+                        "tabs": [
+                            {
+                                "id": "REGULAR",
+                                "title": "Full Menu",
+                                "selected": true,
+                                "analytics": {},
+                                "selectedImage": "v1594205104/fullMenuActive_qcsdzt.png",
+                                "unselectedImage": "v1594205107/fullMenuInactive_fbdtp2.png"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "groupedCard": {
+                    "cardGroupMap": {
+                        "REGULAR": {
+                            "cards": [
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+                                            "badges": {},
+                                            "vegOnlyDetails": {
+                                                "imageId": "AutoVegOnly_qkjowj",
+                                                "title": "Showing only vegetarian options.",
+                                                "description": "Tap on the VEG ONLY button to turn off the setting"
+                                            },
+                                            "topRatedFilter": {
+                                                "attributes": {
+                                                    "displayText": "Ratings 4.0+"
+                                                }
+                                            },
+                                            "kidsCategoryFilter": {
+                                                "attributes": {
+                                                    "displayText": "Kids Favourites",
+                                                    "tooltip": {
+                                                        "enabled": true,
+                                                        "displayText": "Kids Favourites Filter applied. Remove this filter to see the full Menu."
+                                                    }
+                                                }
+                                            },
+                                            "vegFilter": {
+                                                "attributes": {
+                                                    "displayText": "VEG"
+                                                }
+                                            },
+                                            "nonvegFilter": {
+                                                "attributes": {
+                                                    "displayText": "NONVEG"
+                                                },
+                                                "isSelected": true
+                                            }
+                                        },
+                                        "relevance": {
+                                            "type": "RELEVANCE_TYPE_ON_MENU_FILTER_TOGGLED",
+                                            "sectionId": "MENU_FILTER_TOGGLE"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Recommended",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "130201751",
+                                                            "name": "Caramel Nut Crunch Ice Cream [200 Ml]",
+                                                            "category": "Luxury French Ice-cream",
+                                                            "description": "Celebrate the season with our Caramel Nut Crunch. Our beloved salted caramel ice cream is festooned with caramelised cashew nut chunks, adding a festive crunch to your holiday indulgence. All-natural and lovingly prepared. Travel time: Up to one hour fifteen minutes. Dietary note: Contains egg.",
+                                                            "imageId": "96a0736a2171f19c596f63e9609f3a86",
+                                                            "inStock": 1,
+                                                            "price": 29661,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "showImage": true,
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.8",
+                                                                    "ratingCount": "113 ratings",
+                                                                    "ratingCountV2": "113"
+                                                                }
+                                                            },
+                                                            "isBolt": true,
+                                                            "boltImageId": "bolt/Bolt%20Menu%20Item.png",
+                                                            "imageBadges": [
+                                                                {
+                                                                    "imageId": "Purpose%20Built%20Journey/Bolt%201_1.png"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "130201749",
+                                                            "name": "Banana Walnut Waltz Ice Cream [200 Ml]",
+                                                            "category": "Luxury French Ice-cream",
+                                                            "description": "Dance with our Banana Walnut Waltz through the holiday season. Our all-natural banana ice cream is enhanced with the festive crunch of caramelised Chilean walnuts and intertwined with ribbons of homemade caramel sauce. Travel time: Up to one hour fifteen minutes. Dietary note: Contains egg.",
+                                                            "imageId": "c9839d5d0d7220a7e6bc62ff73dd897f",
+                                                            "inStock": 1,
+                                                            "price": 35593,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.9",
+                                                                    "ratingCount": "66 ratings",
+                                                                    "ratingCountV2": "66"
+                                                                }
+                                                            },
+                                                            "isBolt": true,
+                                                            "boltImageId": "bolt/Bolt%20Menu%20Item.png",
+                                                            "imageBadges": [
+                                                                {
+                                                                    "imageId": "Purpose%20Built%20Journey/Bolt%201_1.png"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "130201750",
+                                                            "name": "Belgian Chocolate & Hazelnut Ice Cream [200 Ml]",
+                                                            "category": "Luxury French Ice-cream",
+                                                            "description": "Our Ultimate Belgian Milk Chocolate ice cream is loaded with generous chunks of hazelnuts; each further enrobed in even more couverture chocolate for a double dose of indulgence. Travel time: Up to one hour fifteen minutes. Dietary note: Contains egg.",
+                                                            "imageId": "e7c1fc3b20eb8b035f66a83dc4d0db9d",
+                                                            "inStock": 1,
+                                                            "price": 35593,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "showImage": true,
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.9",
+                                                                    "ratingCount": "248 ratings",
+                                                                    "ratingCountV2": "248"
+                                                                }
+                                                            },
+                                                            "isBolt": true,
+                                                            "boltImageId": "bolt/Bolt%20Menu%20Item.png",
+                                                            "imageBadges": [
+                                                                {
+                                                                    "imageId": "Purpose%20Built%20Journey/Bolt%201_1.png"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "130201752",
+                                                            "name": "Peanut Nom & Nomms Ice Cream [200 Ml]",
+                                                            "category": "Luxury French Ice-cream",
+                                                            "description": "Jingle all the way with our Peanut Nom & Nomms ice cream. Chunky peanut butter ice cream studded with chocolate-covered peanut chunks. Travel time: Up to one hour fifteen minutes. Dietary note: Contains egg.",
+                                                            "imageId": "7f55ef2e7b4dabbc2db30ea075429fa4",
+                                                            "inStock": 1,
+                                                            "price": 29661,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.9",
+                                                                    "ratingCount": "77 ratings",
+                                                                    "ratingCountV2": "77"
+                                                                }
+                                                            },
+                                                            "isBolt": true,
+                                                            "boltImageId": "bolt/Bolt%20Menu%20Item.png",
+                                                            "imageBadges": [
+                                                                {
+                                                                    "imageId": "Purpose%20Built%20Journey/Bolt%201_1.png"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "type": "CATEGORY_TYPE_RECOMMENDED",
+                                            "subtitleSuffix": {}
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory",
+                                            "title": "Luxury French Ice-cream",
+                                            "categories": [
+                                                {
+                                                    "title": "Signature Premium",
+                                                    "itemCards": [
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "130201750",
+                                                                    "name": "Belgian Chocolate & Hazelnut Ice Cream [200 Ml]",
+                                                                    "category": "Luxury French Ice-cream",
+                                                                    "description": "Our Ultimate Belgian Milk Chocolate ice cream is loaded with generous chunks of hazelnuts; each further enrobed in even more couverture chocolate for a double dose of indulgence. Travel time: Up to one hour fifteen minutes. Dietary note: Contains egg.",
+                                                                    "imageId": "e7c1fc3b20eb8b035f66a83dc4d0db9d",
+                                                                    "inStock": 1,
+                                                                    "price": 35593,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "NONVEG"
+                                                                    },
+                                                                    "ribbon": {
+                                                                        "text": "Bestseller",
+                                                                        "textColor": "#ffffff",
+                                                                        "topBackgroundColor": "#d53d4c",
+                                                                        "bottomBackgroundColor": "#b02331"
+                                                                    },
+                                                                    "type": "ITEM",
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "isBestseller": true,
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {
+                                                                            "rating": "4.9",
+                                                                            "ratingCount": "248 ratings",
+                                                                            "ratingCountV2": "248"
+                                                                        }
+                                                                    },
+                                                                    "isBolt": true,
+                                                                    "boltImageId": "bolt/Bolt%20Menu%20Item.png",
+                                                                    "imageBadges": [
+                                                                        {
+                                                                            "imageId": "Purpose%20Built%20Journey/Bolt%201_1.png"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        },
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "112563376",
+                                                                    "name": "Sticky Gooey Fudgy Brownie Ice Cream [200 Ml]",
+                                                                    "category": "Luxury French Ice-cream",
+                                                                    "description": "Chocolate fudge, homemade crunchy gooey brownie chunks, and Indian couverture chocolate ice cream - Redefines dressed to the nines. Travel time: Up to one hour fifteen minutes. Dietary note: Contains egg.",
+                                                                    "imageId": "wt4hx0wyvlxjvml0rsvk",
+                                                                    "inStock": 1,
+                                                                    "price": 33051,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "NONVEG"
+                                                                    },
+                                                                    "ribbon": {
+                                                                        "text": "Bestseller",
+                                                                        "textColor": "#ffffff",
+                                                                        "topBackgroundColor": "#d53d4c",
+                                                                        "bottomBackgroundColor": "#b02331"
+                                                                    },
+                                                                    "type": "ITEM",
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "isBestseller": true,
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {
+                                                                            "rating": "4.8",
+                                                                            "ratingCount": "568 ratings",
+                                                                            "ratingCountV2": "568"
+                                                                        }
+                                                                    },
+                                                                    "isBolt": true,
+                                                                    "boltImageId": "bolt/Bolt%20Menu%20Item.png",
+                                                                    "imageBadges": [
+                                                                        {
+                                                                            "imageId": "Purpose%20Built%20Journey/Bolt%201_1.png"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        },
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "112563379",
+                                                                    "name": "Wild Berry Cheesecake Ice Cream [200 Ml]",
+                                                                    "category": "Luxury French Ice-cream",
+                                                                    "description": "100% real blueberries, blackberries, raspberries, and currants red and black in a homemade compote, layered through our signature cheesecake ice cream with pockets of buttery crusty biscuit bits. Travel time: Up to one hour fifteen minutes. Dietary note: Contains egg.",
+                                                                    "imageId": "yxgfobpfqoahlrmncf3l",
+                                                                    "inStock": 1,
+                                                                    "price": 33051,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "NONVEG"
+                                                                    },
+                                                                    "ribbon": {
+                                                                        "text": "Bestseller",
+                                                                        "textColor": "#ffffff",
+                                                                        "topBackgroundColor": "#d53d4c",
+                                                                        "bottomBackgroundColor": "#b02331"
+                                                                    },
+                                                                    "type": "ITEM",
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "isBestseller": true,
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {
+                                                                            "rating": "4.8",
+                                                                            "ratingCount": "223 ratings",
+                                                                            "ratingCountV2": "223"
+                                                                        }
+                                                                    },
+                                                                    "isBolt": true,
+                                                                    "boltImageId": "bolt/Bolt%20Menu%20Item.png",
+                                                                    "imageBadges": [
+                                                                        {
+                                                                            "imageId": "Purpose%20Built%20Journey/Bolt%201_1.png"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        },
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "112563378",
+                                                                    "name": "White Chocolate Raspberry Ice Cream [200 Ml]",
+                                                                    "category": "Luxury French Ice-cream",
+                                                                    "description": "Indian couverture white chocolate ice cream married with pure raspberry ripples, a match made in heaven. Travel time: Up to one hour fifteen minutes. Dietary note: Contains egg.",
+                                                                    "imageId": "tmqyomtmpmiupq4iqnvs",
+                                                                    "inStock": 1,
+                                                                    "price": 33051,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "NONVEG"
+                                                                    },
+                                                                    "ribbon": {
+                                                                        "text": "Bestseller",
+                                                                        "textColor": "#ffffff",
+                                                                        "topBackgroundColor": "#d53d4c",
+                                                                        "bottomBackgroundColor": "#b02331"
+                                                                    },
+                                                                    "type": "ITEM",
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "isBestseller": true,
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {
+                                                                            "rating": "4.8",
+                                                                            "ratingCount": "234 ratings",
+                                                                            "ratingCountV2": "234"
+                                                                        }
+                                                                    },
+                                                                    "isBolt": true,
+                                                                    "boltImageId": "bolt/Bolt%20Menu%20Item.png",
+                                                                    "imageBadges": [
+                                                                        {
+                                                                            "imageId": "Purpose%20Built%20Journey/Bolt%201_1.png"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        },
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "112563373",
+                                                                    "name": "Lemon Heaven Cheesecake Ice Cream [200 Ml]",
+                                                                    "category": "Luxury French Ice-cream",
+                                                                    "description": "Homemade lemon curd swirled throughout our signature cheesecake ice cream with ginger-spiced buttery crusty biscuit pockets. Travel time: Up to one hour fifteen minutes. Dietary note: Contains egg.",
+                                                                    "imageId": "sc5m57ekm7dorbs3nbjk",
+                                                                    "inStock": 1,
+                                                                    "price": 33051,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "NONVEG"
+                                                                    },
+                                                                    "ribbon": {
+                                                                        "text": "Bestseller",
+                                                                        "textColor": "#ffffff",
+                                                                        "topBackgroundColor": "#d53d4c",
+                                                                        "bottomBackgroundColor": "#b02331"
+                                                                    },
+                                                                    "type": "ITEM",
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "isBestseller": true,
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {
+                                                                            "rating": "4.8",
+                                                                            "ratingCount": "263 ratings",
+                                                                            "ratingCountV2": "263"
+                                                                        }
+                                                                    },
+                                                                    "isBolt": true,
+                                                                    "boltImageId": "bolt/Bolt%20Menu%20Item.png",
+                                                                    "imageBadges": [
+                                                                        {
+                                                                            "imageId": "Purpose%20Built%20Journey/Bolt%201_1.png"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        },
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "112563375",
+                                                                    "name": "Salted Caramel Cookie Crunch Ice Cream [200 Ml]",
+                                                                    "category": "Luxury French Ice-cream",
+                                                                    "description": "Luxurious homemade caramel ice cream, hints of sea salt & Indian couverture white chocolate enrobed buttery cookie crunchies. Travel time: Up to one hour fifteen minutes. Dietary note: Contains egg.",
+                                                                    "imageId": "mk89pvbgt8z3pudtwfbu",
+                                                                    "inStock": 1,
+                                                                    "price": 31356,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "NONVEG"
+                                                                    },
+                                                                    "ribbon": {
+                                                                        "text": "Bestseller",
+                                                                        "textColor": "#ffffff",
+                                                                        "topBackgroundColor": "#d53d4c",
+                                                                        "bottomBackgroundColor": "#b02331"
+                                                                    },
+                                                                    "type": "ITEM",
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "isBestseller": true,
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {
+                                                                            "rating": "4.8",
+                                                                            "ratingCount": "346 ratings",
+                                                                            "ratingCountV2": "346"
+                                                                        }
+                                                                    },
+                                                                    "isBolt": true,
+                                                                    "boltImageId": "bolt/Bolt%20Menu%20Item.png",
+                                                                    "imageBadges": [
+                                                                        {
+                                                                            "imageId": "Purpose%20Built%20Journey/Bolt%201_1.png"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        },
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "112563377",
+                                                                    "name": "Strawberry Cheesecake Ice Cream [200 Ml]",
+                                                                    "category": "Luxury French Ice-cream",
+                                                                    "description": "100% natural strawberry swirls and chunks, our signature cheesecake ice cream, and pockets of buttery crusty biscuit bits. Travel time: Up to one hour fifteen minutes. Dietary note: Contains egg.",
+                                                                    "imageId": "kvj1wjqi4vfuaneueqdu",
+                                                                    "inStock": 1,
+                                                                    "price": 33051,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "NONVEG"
+                                                                    },
+                                                                    "ribbon": {},
+                                                                    "type": "ITEM",
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {
+                                                                            "rating": "4.9",
+                                                                            "ratingCount": "103 ratings",
+                                                                            "ratingCountV2": "103"
+                                                                        }
+                                                                    },
+                                                                    "isBolt": true,
+                                                                    "boltImageId": "bolt/Bolt%20Menu%20Item.png",
+                                                                    "imageBadges": [
+                                                                        {
+                                                                            "imageId": "Purpose%20Built%20Journey/Bolt%201_1.png"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        },
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "112563374",
+                                                                    "name": "Lemon Merry Blueberry Ice Cream [200ml]",
+                                                                    "category": "Luxury French Ice-cream",
+                                                                    "description": "Lemon and blueberry swirls in our signature cream base make for a tangy summery delight that puts a smile on one's face. Travel time: Up to one hour fifteen minutes. Dietary note: Contains egg.",
+                                                                    "imageId": "rzewdroskvjf7yw5lbqb",
+                                                                    "inStock": 1,
+                                                                    "price": 33051,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "NONVEG"
+                                                                    },
+                                                                    "ribbon": {},
+                                                                    "type": "ITEM",
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {
+                                                                            "rating": "4.8",
+                                                                            "ratingCount": "92 ratings",
+                                                                            "ratingCountV2": "92"
+                                                                        }
+                                                                    },
+                                                                    "isBolt": true,
+                                                                    "boltImageId": "bolt/Bolt%20Menu%20Item.png",
+                                                                    "imageBadges": [
+                                                                        {
+                                                                            "imageId": "Purpose%20Built%20Journey/Bolt%201_1.png"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        },
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "130201752",
+                                                                    "name": "Peanut Nom & Nomms Ice Cream [200 Ml]",
+                                                                    "category": "Luxury French Ice-cream",
+                                                                    "description": "Jingle all the way with our Peanut Nom & Nomms ice cream. Chunky peanut butter ice cream studded with chocolate-covered peanut chunks. Travel time: Up to one hour fifteen minutes. Dietary note: Contains egg.",
+                                                                    "imageId": "7f55ef2e7b4dabbc2db30ea075429fa4",
+                                                                    "inStock": 1,
+                                                                    "price": 29661,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "NONVEG"
+                                                                    },
+                                                                    "ribbon": {},
+                                                                    "type": "ITEM",
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {
+                                                                            "rating": "4.9",
+                                                                            "ratingCount": "77 ratings",
+                                                                            "ratingCountV2": "77"
+                                                                        }
+                                                                    },
+                                                                    "isBolt": true,
+                                                                    "boltImageId": "bolt/Bolt%20Menu%20Item.png",
+                                                                    "imageBadges": [
+                                                                        {
+                                                                            "imageId": "Purpose%20Built%20Journey/Bolt%201_1.png"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        }
+                                                    ],
+                                                    "subtitleSuffix": {}
+                                                },
+                                                {
+                                                    "title": "Super-premium",
+                                                    "itemCards": [
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "112563364",
+                                                                    "name": "Dark Belgian Cacao Rapture Ice Cream [200 Ml]",
+                                                                    "category": "Luxury French Ice-cream",
+                                                                    "description": "A bittersweet symphony, not for the faint of heart. 70% Dark Belgian Couverture chocolate for the dark chocolate purist. All-natural with no artificial flavours, preservatives, emulsifiers, or stabilisers. Travel time: Up to one hour fifteen minutes. Dietary note: Contains egg.",
+                                                                    "inStock": 1,
+                                                                    "price": 35593,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "NONVEG"
+                                                                    },
+                                                                    "ribbon": {},
+                                                                    "type": "ITEM",
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {
+                                                                            "rating": "4.9",
+                                                                            "ratingCount": "126 ratings",
+                                                                            "ratingCountV2": "126"
+                                                                        }
+                                                                    },
+                                                                    "isBolt": true,
+                                                                    "boltImageId": "bolt/Bolt%20Menu%20Item.png",
+                                                                    "imageBadges": [
+                                                                        {
+                                                                            "imageId": "Purpose%20Built%20Journey/Bolt%201_1.png"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        },
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "112563370",
+                                                                    "name": "Ultimate Belgian Milk Chocolate Ice Cream [200 Ml]",
+                                                                    "category": "Luxury French Ice-cream",
+                                                                    "description": "Belgian couverture chocolate ice cream. One will not find another quite like this. All-natural with no artificial flavours, preservatives, emulsifiers, or stabilisers. Travel time: Up to one hour fifteen minutes. Dietary note: Contains egg.",
+                                                                    "imageId": "cqamittipjj62vxqsex5",
+                                                                    "inStock": 1,
+                                                                    "price": 33051,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "NONVEG"
+                                                                    },
+                                                                    "ribbon": {
+                                                                        "text": "Bestseller",
+                                                                        "textColor": "#ffffff",
+                                                                        "topBackgroundColor": "#d53d4c",
+                                                                        "bottomBackgroundColor": "#b02331"
+                                                                    },
+                                                                    "type": "ITEM",
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "isBestseller": true,
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {
+                                                                            "rating": "4.8",
+                                                                            "ratingCount": "126 ratings",
+                                                                            "ratingCountV2": "126"
+                                                                        }
+                                                                    },
+                                                                    "isBolt": true,
+                                                                    "boltImageId": "bolt/Bolt%20Menu%20Item.png",
+                                                                    "imageBadges": [
+                                                                        {
+                                                                            "imageId": "Purpose%20Built%20Journey/Bolt%201_1.png"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        },
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "130201751",
+                                                                    "name": "Caramel Nut Crunch Ice Cream [200 Ml]",
+                                                                    "category": "Luxury French Ice-cream",
+                                                                    "description": "Celebrate the season with our Caramel Nut Crunch. Our beloved salted caramel ice cream is festooned with caramelised cashew nut chunks, adding a festive crunch to your holiday indulgence. All-natural and lovingly prepared. Travel time: Up to one hour fifteen minutes. Dietary note: Contains egg.",
+                                                                    "imageId": "96a0736a2171f19c596f63e9609f3a86",
+                                                                    "inStock": 1,
+                                                                    "price": 29661,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "NONVEG"
+                                                                    },
+                                                                    "ribbon": {
+                                                                        "text": "Bestseller",
+                                                                        "textColor": "#ffffff",
+                                                                        "topBackgroundColor": "#d53d4c",
+                                                                        "bottomBackgroundColor": "#b02331"
+                                                                    },
+                                                                    "type": "ITEM",
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "isBestseller": true,
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {
+                                                                            "rating": "4.8",
+                                                                            "ratingCount": "113 ratings",
+                                                                            "ratingCountV2": "113"
+                                                                        }
+                                                                    },
+                                                                    "isBolt": true,
+                                                                    "boltImageId": "bolt/Bolt%20Menu%20Item.png",
+                                                                    "imageBadges": [
+                                                                        {
+                                                                            "imageId": "Purpose%20Built%20Journey/Bolt%201_1.png"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        },
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "130201749",
+                                                                    "name": "Banana Walnut Waltz Ice Cream [200 Ml]",
+                                                                    "category": "Luxury French Ice-cream",
+                                                                    "description": "Dance with our Banana Walnut Waltz through the holiday season. Our all-natural banana ice cream is enhanced with the festive crunch of caramelised Chilean walnuts and intertwined with ribbons of homemade caramel sauce. Travel time: Up to one hour fifteen minutes. Dietary note: Contains egg.",
+                                                                    "imageId": "c9839d5d0d7220a7e6bc62ff73dd897f",
+                                                                    "inStock": 1,
+                                                                    "price": 35593,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "NONVEG"
+                                                                    },
+                                                                    "ribbon": {},
+                                                                    "type": "ITEM",
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {
+                                                                            "rating": "4.9",
+                                                                            "ratingCount": "66 ratings",
+                                                                            "ratingCountV2": "66"
+                                                                        }
+                                                                    },
+                                                                    "isBolt": true,
+                                                                    "boltImageId": "bolt/Bolt%20Menu%20Item.png",
+                                                                    "imageBadges": [
+                                                                        {
+                                                                            "imageId": "Purpose%20Built%20Journey/Bolt%201_1.png"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        },
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "112563366",
+                                                                    "name": "Double Dulce De Leche Ice Cream [200 Ml]",
+                                                                    "category": "Luxury French Ice-cream",
+                                                                    "description": "Silky ribbons of confiture du lait layered throughout an ice cream loaded with oodles of addictive dulce de leche goodness makes for a smooth competitor to our bestselling Salted Caramel Cookie Crunch. Which side will one choose? All-natural with no artificial flavours, preservatives, emulsifiers, or stabilisers. Travel time: Up to one hour fifteen minutes. Dietary note: Contains egg.",
+                                                                    "imageId": "bm1zv9h7pvqg2mkw6qyw",
+                                                                    "inStock": 1,
+                                                                    "price": 31356,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "NONVEG"
+                                                                    },
+                                                                    "ribbon": {
+                                                                        "text": "Bestseller",
+                                                                        "textColor": "#ffffff",
+                                                                        "topBackgroundColor": "#d53d4c",
+                                                                        "bottomBackgroundColor": "#b02331"
+                                                                    },
+                                                                    "type": "ITEM",
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "isBestseller": true,
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {
+                                                                            "rating": "4.8",
+                                                                            "ratingCount": "196 ratings",
+                                                                            "ratingCountV2": "196"
+                                                                        }
+                                                                    },
+                                                                    "isBolt": true,
+                                                                    "boltImageId": "bolt/Bolt%20Menu%20Item.png",
+                                                                    "imageBadges": [
+                                                                        {
+                                                                            "imageId": "Purpose%20Built%20Journey/Bolt%201_1.png"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        },
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "112563363",
+                                                                    "name": "Come Hither You French Vanilla Ice Cream [200 Ml]",
+                                                                    "category": "Luxury French Ice-cream",
+                                                                    "description": "Countless vanilla bean pods sacrificed themselves at the altar of our French vanilla ice cream. All-natural with no artificial flavours, preservatives, emulsifiers, or stabilisers. Travel time: Up to one hour fifteen minutes. Dietary note: Contains egg.",
+                                                                    "imageId": "mz3bpqncjotvlvnuhto1",
+                                                                    "inStock": 1,
+                                                                    "price": 29661,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "NONVEG"
+                                                                    },
+                                                                    "ribbon": {
+                                                                        "text": "Bestseller",
+                                                                        "textColor": "#ffffff",
+                                                                        "topBackgroundColor": "#d53d4c",
+                                                                        "bottomBackgroundColor": "#b02331"
+                                                                    },
+                                                                    "type": "ITEM",
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "isBestseller": true,
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {
+                                                                            "rating": "4.9",
+                                                                            "ratingCount": "167 ratings",
+                                                                            "ratingCountV2": "167"
+                                                                        }
+                                                                    },
+                                                                    "isBolt": true,
+                                                                    "boltImageId": "bolt/Bolt%20Menu%20Item.png",
+                                                                    "imageBadges": [
+                                                                        {
+                                                                            "imageId": "Purpose%20Built%20Journey/Bolt%201_1.png"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        },
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "112563369",
+                                                                    "name": "This Chocolate Is Mintin' It Ice Cream [200 Ml]",
+                                                                    "category": "Luxury French Ice-cream",
+                                                                    "description": "Belgian couverture chocolate ice cream and peppermint. All-natural with no artificial flavours, preservatives, emulsifiers, or stabilisers. Travel time: Up to one hour fifteen minutes. Dietary note: Contains egg.",
+                                                                    "imageId": "nemg5n0615qdkt4z0bsv",
+                                                                    "inStock": 1,
+                                                                    "price": 35593,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "NONVEG"
+                                                                    },
+                                                                    "ribbon": {},
+                                                                    "type": "ITEM",
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {
+                                                                            "rating": "4.8",
+                                                                            "ratingCount": "26 ratings",
+                                                                            "ratingCountV2": "26"
+                                                                        }
+                                                                    },
+                                                                    "isBolt": true,
+                                                                    "boltImageId": "bolt/Bolt%20Menu%20Item.png",
+                                                                    "imageBadges": [
+                                                                        {
+                                                                            "imageId": "Purpose%20Built%20Journey/Bolt%201_1.png"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        },
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "112563362",
+                                                                    "name": "Banana Caramel Butter Crunch Ice Cream [200 Ml]",
+                                                                    "category": "Luxury French Ice-cream",
+                                                                    "description": "100% natural banana ice cream, sea salt caramel swirls & crunchy buttery bits of joy. All-natural with no artificial flavours, preservatives, emulsifiers, or stabilisers. Travel time: Up to one hour fifteen minutes. Dietary note: Contains egg.",
+                                                                    "imageId": "ymmdya5tpymd0ptovooy",
+                                                                    "inStock": 1,
+                                                                    "price": 29661,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "NONVEG"
+                                                                    },
+                                                                    "ribbon": {},
+                                                                    "type": "ITEM",
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {
+                                                                            "rating": "4.7",
+                                                                            "ratingCount": "87 ratings",
+                                                                            "ratingCountV2": "87"
+                                                                        }
+                                                                    },
+                                                                    "isBolt": true,
+                                                                    "boltImageId": "bolt/Bolt%20Menu%20Item.png",
+                                                                    "imageBadges": [
+                                                                        {
+                                                                            "imageId": "Purpose%20Built%20Journey/Bolt%201_1.png"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        },
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "112563367",
+                                                                    "name": "Peppermint Happy Chip Ice Cream [200 Ml]",
+                                                                    "category": "Luxury French Ice-cream",
+                                                                    "description": "Peppermint ice cream with crispy flakes of Belgian couverture chocolate. All-natural with no artificial flavours, preservatives, emulsifiers, or stabilisers. Travel time: Up to one hour fifteen minutes. Dietary note: Contains egg.",
+                                                                    "imageId": "pj34tnnimyxqeveuspqg",
+                                                                    "inStock": 1,
+                                                                    "price": 33051,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "NONVEG"
+                                                                    },
+                                                                    "ribbon": {},
+                                                                    "type": "ITEM",
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {
+                                                                            "rating": "4.9",
+                                                                            "ratingCount": "63 ratings",
+                                                                            "ratingCountV2": "63"
+                                                                        }
+                                                                    },
+                                                                    "isBolt": true,
+                                                                    "boltImageId": "bolt/Bolt%20Menu%20Item.png",
+                                                                    "imageBadges": [
+                                                                        {
+                                                                            "imageId": "Purpose%20Built%20Journey/Bolt%201_1.png"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        },
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "112563368",
+                                                                    "name": "Rose Bliss Raspberry Delice Ice Cream [200 Ml]",
+                                                                    "category": "Luxury French Ice-cream",
+                                                                    "description": "A delicate duet of delightful floral, fruity, aromatic sweet rose intertwined with the acidic, lovely freshness of our infamous pure raspberry ripples. A classic match made for the ages. Travel time: Up to one hour fifteen minutes. Dietary note: Contains egg.",
+                                                                    "imageId": "uj7973usnad6f6c9shz1",
+                                                                    "inStock": 1,
+                                                                    "price": 33051,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "NONVEG"
+                                                                    },
+                                                                    "ribbon": {},
+                                                                    "type": "ITEM",
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {
+                                                                            "rating": "4.8",
+                                                                            "ratingCount": "48 ratings",
+                                                                            "ratingCountV2": "48"
+                                                                        }
+                                                                    },
+                                                                    "isBolt": true,
+                                                                    "boltImageId": "bolt/Bolt%20Menu%20Item.png",
+                                                                    "imageBadges": [
+                                                                        {
+                                                                            "imageId": "Purpose%20Built%20Journey/Bolt%201_1.png"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        },
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "112563361",
+                                                                    "name": "Apple Spice & All Things Nice Ice Cream [200 Ml]",
+                                                                    "category": "Luxury French Ice-cream",
+                                                                    "description": "Nostalgia in a tub brings up memories of Apple Pies, crumbles, tarts, and preserves. This trip down memory lane uses royal gala apple chunks, tempered with our signature blend of spices, including cinnamon and nutmeg and a few other secret goodies, throughout our luxurious apple spiced ice cream. All-natural with no artificial flavours, preservatives, emulsifiers, or stabilisers. Travel time: Up to one hour fifteen minutes. Dietary note: Contains egg.",
+                                                                    "imageId": "jppxkyrf0l6w1ry8pqkv",
+                                                                    "inStock": 1,
+                                                                    "price": 31356,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "NONVEG"
+                                                                    },
+                                                                    "ribbon": {},
+                                                                    "type": "ITEM",
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {
+                                                                            "rating": "4.9",
+                                                                            "ratingCount": "114 ratings",
+                                                                            "ratingCountV2": "114"
+                                                                        }
+                                                                    },
+                                                                    "isBolt": true,
+                                                                    "boltImageId": "bolt/Bolt%20Menu%20Item.png",
+                                                                    "imageBadges": [
+                                                                        {
+                                                                            "imageId": "Purpose%20Built%20Journey/Bolt%201_1.png"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        },
+                                                        {
+                                                            "card": {
+                                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                "info": {
+                                                                    "id": "112563365",
+                                                                    "name": "Divine Dark Mocha Flake Ice Cream [200 Ml]",
+                                                                    "category": "Luxury French Ice-cream",
+                                                                    "description": "South Indian filter coffee ice cream. Super strong with crispy flakes of Belgian couverture chocolate. All-natural with no artificial flavours, preservatives, emulsifiers, or stabilisers. Travel time: Up to one hour fifteen minutes. Dietary note: Contains egg.",
+                                                                    "imageId": "fdz1cgwpzibbxrlbagsl",
+                                                                    "inStock": 1,
+                                                                    "price": 29661,
+                                                                    "variants": {},
+                                                                    "variantsV2": {},
+                                                                    "itemAttribute": {
+                                                                        "vegClassifier": "NONVEG"
+                                                                    },
+                                                                    "ribbon": {},
+                                                                    "type": "ITEM",
+                                                                    "itemBadge": {},
+                                                                    "badgesV2": {},
+                                                                    "ratings": {
+                                                                        "aggregatedRating": {
+                                                                            "rating": "4.8",
+                                                                            "ratingCount": "97 ratings",
+                                                                            "ratingCountV2": "97"
+                                                                        }
+                                                                    },
+                                                                    "isBolt": true,
+                                                                    "boltImageId": "bolt/Bolt%20Menu%20Item.png",
+                                                                    "imageBadges": [
+                                                                        {
+                                                                            "imageId": "Purpose%20Built%20Journey/Bolt%201_1.png"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "analytics": {},
+                                                                "hideRestaurantDetails": true
+                                                            }
+                                                        }
+                                                    ],
+                                                    "subtitleSuffix": {}
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
+                                            "type": "FSSAI",
+                                            "imageId": "fssai_final_edss9i",
+                                            "text": [
+                                                "License No. 11223334000346"
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+                                            "name": "Omm Nom Nomm",
+                                            "area": "Koramangala",
+                                            "completeAddress": "SHOP BEARING NO.A01, NO.506, 1ST CROSS, 8TH BLOCK, KORAMANGALA LAYOUT - BENGALURU, INDIA, BTM Layout , B.B.M.P South, Karnataka-560095"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        ],
+        "firstOffsetRequest": true,
+        "isQCLink": false
+    },
+    "tid": "2bf97565-e97c-47e6-aed5-8902dcbf2acd",
+    "sid": "hjr4e543-8997-46ff-99bb-b2cdbb2349f3",
+    "deviceId": "e18f661d-9a4d-f094-2066-fae03002cbf6",
+    "csrfToken": "PhPlPFAWltpH-IFXBZY3JSf9-UudHJvFWg56Y0U8"
+}
