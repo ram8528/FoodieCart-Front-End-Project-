@@ -49,7 +49,7 @@ const RestaurantCard = (props) => {
         {/* Smaller text for cuisines */}
         <div className="flex justify-between items-center mt-2 text-sm">
           <h4 className="font-semibold">{avgRating}</h4>
-          <h4 className="text-gray-500">₹{costForTwo}</h4>
+          <h4 className="text-gray-500">{costForTwo}</h4>
         </div>
         <h4 className="text-sm text-gray-500">{deliveryTime} minutes</h4>
         <h5 className="text-sm text-gray-500">

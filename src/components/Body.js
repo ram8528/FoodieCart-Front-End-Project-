@@ -31,6 +31,7 @@ const Body = () => {
   const fetchData = async () => {
     const data = await fetch(
       "https://www.swiggy.com/mapi/homepage/getCards?lat=12.9352403&lng=77.624532"
+      // "https://console.firebase.google.com/project/foodiecart-af11f/database/foodiecart-af11f-default-rtdb/data/~2F"
     );
 
     const json = await data.json();

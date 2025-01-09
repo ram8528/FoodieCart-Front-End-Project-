@@ -12,7 +12,7 @@ const Contact = () => {
               name="name"
               id="name"
               className="w-full border border-gray-300 rounded-lg p-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-indigo-500"
-              placeholder="name"
+              placeholder="Enter your Name"
               required
             />
           </div>
